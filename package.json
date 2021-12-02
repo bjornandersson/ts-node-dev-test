@@ -1,0 +1,18 @@
+{
+  "name": "test-require",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev:a": "ts-node-dev --respawn src/index.ts",
+    "dev:b": "ts-node-dev --respawn --ignore-watch ['tmp'] src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^16.11.11",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.5.2"
+  }
+}
